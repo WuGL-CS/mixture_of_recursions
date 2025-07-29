@@ -2,6 +2,7 @@
 
 # Array of dataset names
 datasets=("fineweb-edu-dedup")
+#下面的一系列执行逻辑：根据数据名集字，和下载逻辑（sh 提前写好的），先下载到缓存里，然后再根据数据集名称，移动到相应的hf_datasets文件夹下
 
 # Directory where datasets will be stored
 hf_datasets_dir="hf_datasets"
